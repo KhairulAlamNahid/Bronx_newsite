@@ -411,6 +411,10 @@ nav .three {
     padding-bottom: 100px;
 }
 
+#service-part .service-details .service-box{
+    border: 1px solid #f2f2f2;
+}
+
 #service-part .service-details .service-box .img {
     overflow: hidden;
 }
@@ -422,6 +426,10 @@ nav .three {
 
 #service-part .service-details .service-box:hover .img img{
     transform: scale(1.1);
+}
+
+#service-part .service-details .service-box .text{
+    padding: 0 30px 30px 30px;
 }
 
 #service-part .service-details .service-box .text h3 {
