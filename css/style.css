@@ -1,0 +1,481 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*----------------------------------------
+              heading top part start
+   -----------------------------------------*/
+#heading-top-part {
+    background: #F3F3F3;
+}
+
+#heading-top-part ul li {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+    line-height: 50px;
+    letter-spacing: 0.25px;
+}
+
+#heading-top-part ul li i {
+    font-size: 14px;
+    padding-right: 5px;
+    color: #555;
+}
+
+#heading-top-part ul .pad-left {
+    padding-left: 20px;
+    position: relative;
+}
+
+#heading-top-part ul .pad-left::after {
+    width: 1px;
+    height: 14px;
+    position: absolute;
+    left: 6px;
+    top: 50%;
+    content: "";
+    background: #d7d7d7;
+    transform: translateY(-50%);
+}
+
+#heading-top-part ul li a {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+}
+
+#heading-top-part ul li a:hover {
+    color: #faa629;
+}
+
+#heading-top-part .link-text {
+    text-align: right;
+}
+
+#heading-top-part .link-text a {
+    display: inline-block;
+    line-height: 50px;
+    color: #666;
+    padding-left: 3px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+#heading-top-part .link-text .icon {
+    font-size: 16px;
+}
+
+/*----------------------------------------
+              heading top part end
+   -----------------------------------------*/
+/*----------------------------------------
+              navbar part start
+   -----------------------------------------*/
+nav {
+    background: #fff;
+}
+
+.navbar {
+    padding: 0;
+}
+
+nav ul li a {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    color: #222;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    padding: 0 20px !important;
+    line-height: 100px !important;
+    transition: all .3s ease;
+    position: relative;
+}
+
+nav ul li a::after {
+    width: 84%;
+    height: 2px;
+    background: transparent;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    transition: all .3s ease;
+}
+
+nav ul li a:hover::after {
+    background: #faa529;
+}
+
+nav ul li a:hover {
+    color: #faa629;
+}
+
+nav ul li a .search {
+    font-size: 18px;
+    padding-left: 10px;
+    color: #6c6c6c;
+}
+
+nav ul li a .cart {
+    font-size: 19px;
+    color: #faa529;
+}
+
+nav .search i {
+    font-size: 18px;
+    padding-left: 30px;
+    color: #6c6c6c;
+    cursor: pointer;
+}
+
+nav .card-part {
+    position: relative;
+    padding-left: 40px;
+}
+
+nav .card-part a {
+    display: inline-block;
+    color: #222;
+    font-size: 20px;
+
+}
+
+nav .three {
+    position: absolute;
+    top: 0;
+    right: -18px;
+    width: 17px;
+    height: 17px;
+    background: #faa529;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 17px;
+    font-size: 11px;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+/*----------------------------------------
+              navbar part end
+   -----------------------------------------*/
+/*----------------------------------------
+              banner part start
+   -----------------------------------------*/
+#banner-part {
+    background: url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+#banner-part .content {
+    position: absolute;
+    top: 35%;
+}
+
+#banner-part .content .banner-content h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #010101;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+
+#banner-part .content .banner-content h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #010101;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    padding: 12px 0 7px;
+}
+
+#banner-part .content .banner-content h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #010101;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 53px;
+}
+
+#banner-part .content a {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 15px 30px;
+    background: #faa529;
+    border-radius: 3px;
+    border-bottom-right-radius: 20px;
+    transition: all .3s ease;
+    border: 2px solid #faa529;
+    position: relative;
+}
+
+#banner-part .content a:hover {
+    background: transparent;
+    color: #222222;
+}
+
+/*----------------------------------------
+              banner part end
+   -----------------------------------------*/
+/*----------------------------------------
+              banner bottom part start
+   -----------------------------------------*/
+#banner-bottom {
+    position: relative;
+}
+
+#banner-bottom .bottom-part {
+    margin-top: -120px;
+}
+
+#banner-bottom .details {
+    width: 100%;
+    background: #373737;
+    padding: 40px;
+}
+
+#banner-bottom .details .text {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+
+#banner-bottom .details .text .shape {
+    width: 90px;
+    height: 90px;
+    background: #faa529;
+    border-radius: 5px;
+    position: absolute;
+    content: "";
+    top: -85px;
+    left: 37%;
+    transform: rotate(45deg);
+}
+
+#banner-bottom .details .text .shape i {
+    font-size: 38px;
+    color: #fff;
+    line-height: 87px;
+    transform: rotate(-45deg)
+}
+
+#banner-bottom .details .text h3 {
+    font-size: 23px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 45px;
+    letter-spacing: 1px;
+}
+
+#banner-bottom .details .text p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+    line-height: 26px;
+}
+
+
+#banner-bottom .details .text:hover .shape {
+    animation: spin .2s linear;
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(380deg);
+    }
+}
+
+/*----------------------------------------
+              banner bottom part end
+   -----------------------------------------*/
+/*----------------------------------------
+              service part start
+   -----------------------------------------*/
+#service-part {
+    margin-top: 120px;
+}
+
+#service-part .title {
+    text-align: center;
+}
+
+#service-part .title h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #272727;
+    text-transform: capitalize;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 500px;
+    margin: 0 auto;
+    line-height: 50px;
+}
+
+#service-part .title p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #999;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+    width: 700px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+#service-part .title a {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    padding: 15px 48px;
+    background: #faa529;
+    border-radius: 5px;
+    margin: 0 9px;
+    font-family: 'Source Sans Pro', helvetica, sans-serif;
+    border: 1px solid #faa529;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all .3s ease;
+}
+
+#service-part .title a:last-child {
+    background: transparent;
+    border-color: #252525;
+    color: #252525;
+    transition: all .3s ease;
+}
+
+#service-part .title a:hover {
+    background: transparent;
+    border-color: #252525;
+    color: #252525;
+}
+
+
+#service-part .title a:last-child:hover {
+    background: #faa529;
+    color: #fff;
+    border-color: #faa529;
+}
+
+#service-part .service-details {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+#service-part .service-details .service-box .img {
+    overflow: hidden;
+}
+
+#service-part .service-details .service-box .img img {
+    width: 100%;
+    transition: all .2s ease;
+}
+
+#service-part .service-details .service-box:hover .img img{
+    transform: scale(1.1);
+}
+
+#service-part .service-details .service-box .text h3 {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', helvetica, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+#service-part .service-details .service-box .text h3 a {
+    display: inline-block;
+    color: #252525;
+    transition: all .2s ease;
+}
+
+#service-part .service-details .service-box .text p {
+    font-size: 15px;
+    color: #666;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+#service-part .service-details .service-box:hover .text a{
+    color: #faa529;
+}
+
+#service-part ul{
+    position: absolute;
+    bottom: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#service-part ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#service-part ul li button{
+    font-size: 0;
+    width: 45px;
+    height: 9px;
+    background: #F2F2F2;
+    border: 0;
+    outline: none;
+}
+
+#service-part ul .slick-active button{
+    background: #faa529;
+}
+
+
+/*----------------------------------------
+              service part end
+   -----------------------------------------*/
