@@ -340,7 +340,7 @@ nav .three {
               service part start
    -----------------------------------------*/
 #service-part {
-    margin-top: 120px;
+    margin-top: 150px;
 }
 
 #service-part .title {
@@ -407,11 +407,11 @@ nav .three {
 }
 
 #service-part .service-details {
-    padding-top: 150px;
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 
-#service-part .service-details .service-box{
+#service-part .service-details .service-box {
     border: 1px solid #f2f2f2;
 }
 
@@ -419,16 +419,22 @@ nav .three {
     overflow: hidden;
 }
 
+.mission .nav-tabs > li.active > a,
+.mission .nav-tabs > li.active > a:focus,
+.mission .nav-tabs > li.active > a:hover {
+    border-bottom-color: transparent
+}
+
 #service-part .service-details .service-box .img img {
     width: 100%;
     transition: all .2s ease;
 }
 
-#service-part .service-details .service-box:hover .img img{
+#service-part .service-details .service-box:hover .img img {
     transform: scale(1.1);
 }
 
-#service-part .service-details .service-box .text{
+#service-part .service-details .service-box .text {
     padding: 0 30px 30px 30px;
 }
 
@@ -454,23 +460,23 @@ nav .three {
     font-family: 'Roboto', sans-serif;
 }
 
-#service-part .service-details .service-box:hover .text a{
+#service-part .service-details .service-box:hover .text a {
     color: #faa529;
 }
 
-#service-part ul{
+#service-part ul {
     position: absolute;
     bottom: -80px;
     left: 50%;
     transform: translateX(-50%);
 }
 
-#service-part ul li{
+#service-part ul li {
     display: inline-block;
     margin: 0 10px;
 }
 
-#service-part ul li button{
+#service-part ul li button {
     font-size: 0;
     width: 45px;
     height: 9px;
@@ -479,11 +485,205 @@ nav .three {
     outline: none;
 }
 
-#service-part ul .slick-active button{
+#service-part ul .slick-active button {
     background: #faa529;
 }
 
 
 /*----------------------------------------
               service part end
+   -----------------------------------------*/
+/*----------------------------------------
+              counter part start
+   -----------------------------------------*/
+#counter-part {
+    margin-top: 150px;
+    background: url(../images/counter-img.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#counter-part .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    padding: 150px 0 140px;
+}
+
+#counter-part .overlay .count {
+    display: flex;
+}
+
+#counter-part .overlay .count .icon i {
+    font-size: 35px;
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    background: #faa529;
+    text-align: center;
+    line-height: 80px;
+}
+
+#counter-part .overlay .count .text {
+    padding-left: 20px;
+}
+
+#counter-part .overlay .count .text h3 {
+    font-size: 46px;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 46px;
+    display: inline-block;
+}
+
+#counter-part .overlay .count .text .plus {
+    font-size: 46px;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    line-height: 0;
+}
+
+#counter-part .overlay .count .text h4 {
+    font-size: 18px;
+    color: #cacaca;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+/*----------------------------------------
+              counter part end
+   -----------------------------------------*/
+/*----------------------------------------
+              chose us part start
+   -----------------------------------------*/
+#chose-us{
+    background: url(../images/choose-img.jpg) no-repeat center;
+    background-size: cover;
+    padding: 195px 0;
+}
+/*----------------------------------------
+              chose us part end
+   -----------------------------------------*/
+/*----------------------------------------
+              misson part start
+   -----------------------------------------*/
+#mission-part {
+    background: url(../images/misson-img.jpg) no-repeat center;
+    background-size: cover;
+    padding: 195px 0;
+    background-attachment: scroll;
+}
+
+#mission-part .mission-details {
+    height: 315px;
+    padding-left: 30px;
+}
+
+#mission-part .mission-details .nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    color: #666;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: #F2F2F2;
+    border-bottom: 0;
+    padding: 25px 30px;
+}
+
+#mission-part .mission-details .nav-link.active {
+    border: 2px solid #d7d7d7;
+    border-top: 4px solid #faa529;
+    border-bottom: none;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    border-color: transparent;
+}
+
+#mission-part .mission-btm {
+    border: 2px solid #d7d7d7;
+    padding: 30px 35px 45px;
+    border-top-color: transparent;
+    box-sizing: border-box;
+}
+
+#mission-part .mission-btm .head {
+    font-size: 15px;
+    font-weight: 700;
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+    line-height: 26px;
+    padding-bottom: 25px;
+}
+
+#mission-part .mission-btm .head-title {
+    font-size: 15px;
+    font-weight: 400;
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+    line-height: 26px;
+}
+
+#misson-part .misson-details .nav-tabs .nav-item {
+    margin-bottom: -2px;
+}
+
+#mission-part .mission-details .nav-tabs {
+    border-bottom: 2px solid #d7d7d7;
+}
+
+#mission-part .mission-details .nav-tabs .nav-item {
+    margin-bottom: -2px;
+}
+
+
+
+/*
+
+#misson-part .misson-details {
+    padding-left: 30px;
+}
+
+
+#misson-part .misson-details .nav-tabs .nav-item {
+    margin-bottom: -2px;
+}
+
+#misson-part .misson-details .nav-tabs {
+    border-bottom: 2px solid #d7d7d7;
+}
+
+#misson-part .misson-details .nav-link.active {
+    border: 2px solid #d7d7d7;
+    border-top: 4px solid #faa529;
+    border-bottom: none;
+}
+
+.nav-tabs #misson-part .misson-details .nav-link.active .nav-tabs li {
+    border-bottom-color: red;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    border-color: transparent;
+}
+
+
+#misson-part .misson-details .tab-content {
+    border: 2px solid #d7d7d7;
+    border-top: 0;
+    padding: 30px 35px 45px;
+    border-top-color: transparent;
+}
+*/
+
+
+/*----------------------------------------
+              misson part end
    -----------------------------------------*/
