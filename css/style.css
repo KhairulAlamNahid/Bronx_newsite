@@ -558,13 +558,85 @@ nav .three {
               counter part end
    -----------------------------------------*/
 /*----------------------------------------
+              projects part start
+   -----------------------------------------*/
+#projects-part{
+    margin-top: 150px;
+}
+
+#projects-part .title{
+    text-align: center;
+}
+/*----------------------------------------
+              projects part end
+   -----------------------------------------*/
+/*----------------------------------------
               chose us part start
    -----------------------------------------*/
-#chose-us{
+#chose-us {
     background: url(../images/choose-img.jpg) no-repeat center;
     background-size: cover;
-    padding: 195px 0;
+    padding: 150px 0;
 }
+
+#chose-us .title {
+    padding-bottom: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#chose-us .title h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #252525;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+#chose-us .title p {
+    font-size: 20px;
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+    width: 700px;
+    margin: 0 auto;
+    line-height: 28px;
+}
+
+
+#chose-us .chose-main {
+    margin-top: 30px;
+}
+
+#chose-us .chose-item {
+    display: flex
+}
+
+#chose-us .chose-item .icon i {
+    font-size: 50px;
+    color: #faa529;
+    padding-right: 30px;
+}
+
+#chose-us .chose-item h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #252525;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+#chose-us .details p {
+    padding-top: 15px;
+    font-size: 15px;
+    color: #666;
+    line-height: 26px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
 /*----------------------------------------
               chose us part end
    -----------------------------------------*/
@@ -593,6 +665,7 @@ nav .three {
     background: #F2F2F2;
     border-bottom: 0;
     padding: 25px 30px;
+    border-radius: 0;
 }
 
 #mission-part .mission-details .nav-link.active {
@@ -642,48 +715,649 @@ nav .three {
     margin-bottom: -2px;
 }
 
+/*----------------------------------------
+              misson part end
+   -----------------------------------------*/
+/*----------------------------------------
+              latest news part start
+   -----------------------------------------*/
+#latest-news {
+    margin-top: 150px;
+}
 
+#latest-news .title {
+    text-align: center;
+    padding-bottom: 100px;
+}
 
-/*
+#latest-news h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #252525;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+}
 
-#misson-part .misson-details {
-    padding-left: 30px;
+#latest-news .news-box .img {
+    padding-bottom: 30px;
+    position: relative;
+}
+
+#latest-news .news-box {
+    border: 1px solid #ddd;
+}
+
+#latest-news .news-box .img img {
+    width: 100%;
+}
+
+#latest-news .news-box .img .date {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: #faa529;
+    padding: 8px 11px 10px;
+    text-align: center;
+}
+
+#latest-news .news-box .img .date p {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#latest-news .news-box .img .date span {
+    display: block;
+    margin-top: -5px;
+}
+
+#latest-news .news-box .img .play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#latest-news .news-box .img .play i {
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, .6);
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 22px;
+}
+
+#latest-news .news-box .text {
+    padding: 0 23px 0 23px;
+    padding-bottom: 30px;
+}
+
+#latest-news .news-box .text a {
+    display: inline-block;
+    color: #404040;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 10px;
+}
+
+#latest-news .news-box .text h5 {
+    font-size: 14px;
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+}
+
+#latest-news .news-box .text h5 .link-title {
+    font-size: 14px;
+    color: #faa529;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
 }
 
 
-#misson-part .misson-details .nav-tabs .nav-item {
-    margin-bottom: -2px;
+#latest-news .news-box .text p {
+    font-size: 15px;
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 30px;
 }
 
-#misson-part .misson-details .nav-tabs {
-    border-bottom: 2px solid #d7d7d7;
+#latest-news .news-box .text .button {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro', helvetica, sans-serif;
+    background: #faa529;
+    padding: 12px 40px;
+    border-radius: 5px;
+    border: 1px solid #faa529;
+    transition: all .3s ease;
 }
 
-#misson-part .misson-details .nav-link.active {
-    border: 2px solid #d7d7d7;
-    border-top: 4px solid #faa529;
-    border-bottom: none;
+#latest-news .news-box .text .button i {
+    padding-left: 5px;
 }
 
-.nav-tabs #misson-part .misson-details .nav-link.active .nav-tabs li {
-    border-bottom-color: red;
+#latest-news .news-box .text .button:hover {
+    background: transparent;
+    color: #252525;
+    border-color: #252525;
 }
 
-.nav-tabs .nav-link:focus,
-.nav-tabs .nav-link:hover {
-    border-color: transparent;
+#latest-news .prev {
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 20px;
 }
 
-
-#misson-part .misson-details .tab-content {
-    border: 2px solid #d7d7d7;
-    border-top: 0;
-    padding: 30px 35px 45px;
-    border-top-color: transparent;
+#latest-news .next {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 20px;
 }
-*/
+
+/*----------------------------------------
+              latest news part end
+   -----------------------------------------*/
+/*----------------------------------------
+              customer part start
+   -----------------------------------------*/
+#customer-part {
+    background: url(../images/customers-img-bg.jpg) no-repeat center;
+    background-size: cover;
+    height: 700px;
+    margin-top: 150px;
+}
+
+#customer-part .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    padding: 195px 0;
+}
+
+#customer-part .overlay .title {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+#customer-part .overlay h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+}
+
+#customer-part .overlay p {
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    width: 700px;
+    margin: 0 auto;
+    line-height: 28px;
+}
 
 
 /*----------------------------------------
-              misson part end
+              customer part end
+   -----------------------------------------*/
+/*----------------------------------------
+              agents part start
+   -----------------------------------------*/
+#agents-part {
+    margin-top: 150px;
+}
+
+
+#agents-part .title {
+    text-align: center;
+}
+
+#agents-part .title h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #252525;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+
+}
+
+#agents-part .title p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #999;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    width: 700px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+#agents-part .agents-box {
+    position: relative;
+    margin-bottom: 160px;
+}
+
+#agents-part .img img {
+    width: 100%;
+}
+
+#agents-part .text {
+    width: 100%;
+    text-align: center;
+    background: #f3f3f3;
+    padding: 28px 20px 12px;
+    position: absolute;
+    bottom: -80px;
+}
+
+#agents-part .text h4 {
+    font-size: 18px;
+    color: #252525;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 10px;
+    transition: all linear 0.2s;
+}
+
+#agents-part .text {
+    transition: all linear .3s;
+}
+
+#agents-part .text p {
+    font-size: 15px;
+    color: #999;
+    text-transform: capitalize;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 10px;
+    transition: all linear .2s;
+}
+
+#agents-part .text .icon {
+    transition: all linear .3s;
+    display: none;
+}
+
+#agents-part .text i {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+#agents-part .agents-box:hover .text {
+    background: #faa529;
+    padding-bottom: 30px;
+}
+
+#agents-part .agents-box:hover .text h4 {
+    color: #fff;
+}
+
+#agents-part .agents-box:hover .text p {
+    color: #fff;
+}
+
+#agents-part .agents-box:hover .text .icon {
+    display: inline-block;
+}
+
+/*----------------------------------------
+              agents part end
+   -----------------------------------------*/
+/*----------------------------------------
+              message part start
+   -----------------------------------------*/
+
+
+#message-part {
+    margin-top: 100px;
+    background: #F3F3F3;
+    padding: 195px 0;
+}
+
+#message-part .sponsor {
+    width: 100%;
+}
+
+#message-part .sponsor h2 {
+    text-align: center;
+    padding-bottom: 80px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #252525;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+
+#message-part .sponsor a {
+    display: inline-block;
+    transition: all linear .3s;
+    opacity: .5;
+    margin-left: -4px;
+}
+
+#message-part .sponsor a.bottom {
+    border-bottom: 2px solid #ccc;
+
+}
+
+#message-part .sponsor a.bor-right {
+    border-right: 2px solid #ccc;
+}
+
+#message-part .sponsor a:hover {
+    opacity: 1;
+}
+
+#message-part .message h2 {
+    text-align: center;
+    padding-bottom: 80px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #252525;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+
+#message-part .message .name {
+    width: 100%;
+    padding: 20px;
+    border: 2px solid #ccc;
+    color: #666;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    background: transparent;
+    margin-bottom: 20px;
+}
+
+#message-part .message .name::placeholder {
+    color: #666;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+
+#message-part .message .box {
+    width: 100%;
+    padding: 20px;
+    border: 2px solid #ccc;
+    color: #666;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    background: transparent;
+    margin-bottom: 20px;
+    min-height: 130px;
+    resize: none;
+}
+
+#message-part .message .button {
+    background: #faa529;
+    border: 1px solid #faa529;
+    outline: none;
+    padding: 15px 48px;
+    border-radius: 3px;
+    border-bottom-right-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all linear .3s;
+}
+
+#message-part .message .button:hover {
+    color: #252525;
+    border-color: #999;
+    background: transparent;
+}
+
+/*----------------------------------------
+              message part end
+   -----------------------------------------*/
+/*----------------------------------------
+              fotter part start
+   -----------------------------------------*/
+#fotter-part {
+    background: #383838;
+    padding: 150px 0 120px;
+}
+
+#fotter-part .img {
+    padding-bottom: 10px;
+}
+
+
+#fotter-part .address a {
+    display: inline-block;
+    font-size: 15px;
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+    transition: all linear .2s;
+}
+
+#fotter-part .address a:hover {
+    color: #faa529;
+}
+
+#fotter-part .address p {
+    font-size: 15px;
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+}
+
+#fotter-part .address .number {
+    font-size: 15px;
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    margin-top: 5px;
+    padding-bottom: 40px;
+}
+
+#fotter-part .icon i {
+    font-size: 22px;
+    color: #999;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all linear .2s;
+}
+
+#fotter-part .icon i:hover {
+    color: #faa529;
+}
+
+#fotter-part .post h2 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+#fotter-part .post a {
+    display: inline-block;
+    font-size: 15px;
+    color: #999;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    transition: all linear .2s;
+}
+
+#fotter-part .post a:hover {
+    color: #faa529;
+}
+
+#fotter-part .post p {
+    padding-top: 10px;
+    color: #666;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 25px;
+}
+
+#fotter-part .link h2 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+
+#fotter-part .link ul li {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding-top: 7px;
+    transition: all linear .3s;
+}
+
+#fotter-part .link ul li i {
+    padding-right: 5px;
+}
+
+#fotter-part .link ul li a {
+    color: #999;
+}
+
+#fotter-part .link ul li:hover {
+    padding-left: 20px;
+}
+
+#fotter-part .link ul li:hover a {
+    color: #faa529;
+}
+
+#fotter-part .time h2 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+}
+
+
+#fotter-part .time p {
+    color: #8c8c8c;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+#fotter-part .time h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 25px;
+    padding-bottom: 10px;
+}
+
+#fotter-part .time .mail {
+    background: transparent;
+    border: 1px solid #535353;
+    border-radius: 0;
+    height: 60px;
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 65px 5px 15px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+#fotter-part .time .relate {
+    position: relative;
+}
+
+#fotter-part .time .mail::placeholder {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+#fotter-part .time .icon-link {
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+}
+
+#fotter-part .time .icon-link i {
+    font-size: 26px;
+    color: #faa529;
+    cursor: pointer;
+    transition: all linear .2s;
+    transition: all linear .3s;
+}
+
+
+/*----------------------------------------
+              fotter part end
+   -----------------------------------------*/
+/*----------------------------------------
+              fotter bottom part start
+   -----------------------------------------*/
+#fotter-bottom {
+    background: #323232;
+    padding: 50px 0;
+}
+
+#fotter-bottom .text {
+    text-align: center;
+    width: 100%;
+}
+
+#fotter-bottom .text p {
+    font-size: 15px;
+    color: #999;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 600;
+}
+
+#fotter-bottom .text span .bronx {
+    display: inline-block;
+    color: #999;
+    font-weight: 700;
+}
+
+#fotter-bottom .text span .name {
+    color: #faa529;
+    display: inline-block;
+    font-weight: 700;
+
+}
+
+/*----------------------------------------
+              fotter bottom part end
    -----------------------------------------*/
